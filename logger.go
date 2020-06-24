@@ -6,8 +6,6 @@ import (
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 )
 
-var std = NewLogger()
-
 // NewLogger ...
 func NewLogger() *log.Logger {
 	logger := log.New()
